@@ -1,0 +1,77 @@
+.form {
+  max-width: 1320px;
+  width: 100%;
+  padding: 50px 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.form select {
+  width: 40%;
+  height: 55px;
+  border-radius: 16px 0 0 16px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.form select option {
+  padding: 20px 10px;
+}
+
+.age {
+  width: 40%;
+}
+
+.age input {
+  width: 100%;
+  height: 55px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  padding-left: 15px;
+}
+
+.ageCont {
+  padding-top: 50px;
+}
+
+.ageCont h2 {
+  font-size: 14px;
+  margin: 0;
+  line-height: 18px;
+  color: #333333;
+}
+
+.ageCont p {
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+.ageCont button {
+  border: 1px solid #828282;
+  border-radius: 4px;
+  background-color: white;
+  width: 28px;
+}
+
+.ageCont span {
+    padding: 0 15px;
+    font-weight: 700;
+}
+
+
+.button {
+  width: 20%;
+  height: 55px;
+  border-radius: 0 16px 16px 0;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  background: #eb5757;
+  color: white;
+}
+
+.button img {
+  height: 17px;
+  width: 17px;
+}
