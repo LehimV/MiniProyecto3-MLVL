@@ -1,14 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 body {
   margin: 0;
 }
 
+:root {
+  --orange: #eb5757;
+}
+.c-orange {
+  color: var(--orange);
+}
+
+.addCity,
+.addGuest {
+  font-family: "Mulish", sans-serif;
+  --bs-btn-color: lightgrey;
+  --bs-btn-bg: white;
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: var(--orange);
+  --bs-btn-border-color: rgb(207, 205, 205);
+  --bs-btn-active-color: var(--orange);
+  --bs-btn-active-bg: white;
+  --bs-btn-active-border-color: var(--orange);
+}
+
+.buttonSearch {
+  background-color: white;
+}
+
+.buttonSearch:hover {
+  font-variation-settings: "wght" 700, "GRAD" 200, "opsz" 48;
+}

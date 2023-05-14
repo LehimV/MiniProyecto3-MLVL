@@ -1,4 +1,5 @@
 //import React, { useState } from "react";
+import React from "react";
 import logo from "../assets/logo.svg";
 //import Form from "./Form";
 
@@ -16,7 +17,6 @@ export default function Navbar({ dropSearch }) {
       <article className="d-flex rounded-4 shadow-sm">
         <button
           type="button"
-          id="addCity"
           className="addCity p-3 m-0 btn border border-end-1 rounded-start-4 rounded-end-0"
           onClick={handleOpenModal}
         >
@@ -24,7 +24,6 @@ export default function Navbar({ dropSearch }) {
         </button>
         <button
           type="button"
-          id="addGuest"
           className="addGuest p-3 m-0 btn border border-start-0 rounded-start-0 rounded-end-0"
           onClick={handleOpenModal}
         >
@@ -33,11 +32,10 @@ export default function Navbar({ dropSearch }) {
 
         <button
           type="button"
-          id="buttonSearch"
-          className="material-symbols-outlined text-danger p-3 border border1 border-start-0 rounded-start-0 rounded-end-4 pointer"
+          className="buttonSearch material-symbols-outlined text-danger p-3 border border1 border-start-0 rounded-start-0 rounded-end-4 pointer"
           onClick={handleOpenModal}
         >
-          search
+          Search
         </button>
       </article>
     </header>
