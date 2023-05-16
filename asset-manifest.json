@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MiniProyecto3-MLVL/static/css/main.8ea3c744.css",
+    "main.js": "/MiniProyecto3-MLVL/static/js/main.c8caf128.js",
+    "static/media/logo.svg": "/MiniProyecto3-MLVL/static/media/logo.beef9462a899fe60cb52edfd446e26ef.svg",
+    "index.html": "/MiniProyecto3-MLVL/index.html",
+    "static/media/search-white.svg": "/MiniProyecto3-MLVL/static/media/search-white.2b434cb1fd220ae0866e7bbf22537224.svg",
+    "main.8ea3c744.css.map": "/MiniProyecto3-MLVL/static/css/main.8ea3c744.css.map",
+    "main.c8caf128.js.map": "/MiniProyecto3-MLVL/static/js/main.c8caf128.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ea3c744.css",
+    "static/js/main.c8caf128.js"
+  ]
+}
